@@ -7,12 +7,15 @@ import ChangeColor from './ChangeColor.jsx'
 import maptest from './Test2.jsx'
 import Test2 from "./Test2.jsx"
 import Todolist from "./Todolist.jsx"
+import Hook from "./Hook.jsx"
+import Api from "./Api.jsx"
+
 
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Todolist/>
+    <Api/>
   </StrictMode>
 )
