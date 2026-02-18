@@ -1,0 +1,11 @@
+.container{
+    background-color: rgb(170, 182, 192);
+    text-align: center;
+    font-family: "IranSans";
+    border-radius: 60px;
+}
+.title{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(69, 24, 230);
+}

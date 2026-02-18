@@ -9,6 +9,9 @@ import Test2 from "./Test2.jsx"
 import Todolist from "./Todolist.jsx"
 import Hook from "./Hook.jsx"
 import Api from "./Api.jsx"
+import Lifecycle from "./Lifecycle.jsx"
+import CssTest from "./CssTest.jsx"
+import StyleComponent from "./StyleComponent.jsx"
 
 
 
@@ -16,6 +19,6 @@ import Api from "./Api.jsx"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Api/>
+    <StyleComponent/>
   </StrictMode>
 )
