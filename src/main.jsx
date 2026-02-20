@@ -12,6 +12,7 @@ import Api from "./Api.jsx"
 import Lifecycle from "./Lifecycle.jsx"
 import CssTest from "./CssTest.jsx"
 import StyleComponent from "./StyleComponent.jsx"
+import Tailwind from "./Tailwind.jsx"
 
 
 

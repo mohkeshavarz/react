@@ -1,0 +1,31 @@
+npm install -D tailwindcss postcss autoprefixer
+
+
+npx tailwindcss init -p
+
+
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+npm run dev    بعد از زدن دستورات بالا این خط رو حتما در آخر بزنید.****
+
+
+الان Tailwind v4 بعضی وقت‌ها با npx روی ویندوز مشکل میده.
+
+بیایم نسخه پایدار v3 رو نصب کنیم:
+
+npm uninstall tailwindcss
+npm install -D tailwindcss@3.4.4 postcss autoprefixer
+
+بعد:
+
+به فایل tailwind.config .js در قسمت content  دو خط دستور اضافه می کنیم
+
+
+به اول فایل ایندکس سه خط دستور دیگه ایندکس سی اس اس
